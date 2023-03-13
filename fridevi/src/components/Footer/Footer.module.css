@@ -1,0 +1,28 @@
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacto img{
+    margin: 0.2rem;
+    vertical-align: middle;
+    opacity: 0.5;
+    
+    
+}
+
+.localitation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.localitation img{
+    opacity: 0.5;
+    vertical-align: middle;
+    margin:0 0.5rem;
+}
+

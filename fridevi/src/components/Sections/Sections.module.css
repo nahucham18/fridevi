@@ -1,0 +1,9 @@
+.sections{
+    display: flex;
+}
+
+section{
+    border: 1px solid black;
+    background-image: url('http://www.fridevi.com.ar/images/default/bloques/1.png');
+    width: 100%;
+}

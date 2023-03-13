@@ -5,9 +5,14 @@
     justify-content: space-around;
     height: 100px;
 }
-
+.linkimage{
+    height: 80%;    
+    
+    
+}
 .image{
-    height: 80%;
+    height: 100%;
+    
 }
 .menu{
     display: flex;

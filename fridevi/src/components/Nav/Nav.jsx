@@ -7,9 +7,11 @@ const Nav = () =>{
         <div className={style.container}>
             
             <div className={style.menu}>
+                <Link className={style.linkimage} to={`/`}>
             <img className={style.image} src="http://www.fridevi.com.ar/images/master/header/bannerFRIDEVI_2016.png" alt="fridevi" />
+                </Link>
                 <Link className={style.link} to={`/nosotros`}><span>Nosotros</span></Link>
-                <Link className={style.link} to={`/noticias`}><span>Nosticias</span></Link>
+                <Link className={style.link} to={`/noticias`}><span>Noticias</span></Link>
                 <Link className={style.link} to={`/clientes`}><span>Clientes</span></Link>
                 <Link className={style.link} to={`/contacto`}><span>Contacto</span></Link>
                 <Link className={style.link} to={`/login`}><span>Login</span></Link>
